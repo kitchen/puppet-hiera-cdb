@@ -37,6 +37,8 @@ To configure hiera to use cdb, in `/etc/puppet/hiera.yaml`:
 
 This requires the `libcdb-ruby` gem to be installed. This, itself, has its own dependencies. On Ubuntu you need the `libcdb-dev` and `libcdb1` packages installed.
 
+Note that the `libcdb-ruby` gem requires ruby 1.9.2 or better for installation. I may switch out the cdb library required at some point to make it more compatible.
+
 If you simply `include hiera_cdb` in your master's catalog it should take care of this for you. Note that I have not tested this part on anything other than ubuntu, so YMMV and please send PRs for any portability concerns!
 
 # TODO
