@@ -1,4 +1,4 @@
 require 'puppet/application/face_base'
 
-class Puppet::Application::HieraBackup < Puppet::Application::FaceBase
+class Puppet::Application::HieraCdb < Puppet::Application::FaceBase
 end
