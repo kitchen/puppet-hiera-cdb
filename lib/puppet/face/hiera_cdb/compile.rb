@@ -17,6 +17,7 @@ Puppet::Face.define(:hiera_cdb, '0.1.0') do
           cdb[key] = value.to_yaml
         end
       end
+      "OK"
     end
   end
 end
